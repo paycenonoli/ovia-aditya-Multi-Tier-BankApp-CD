@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: bankapp
-        image: ojpascale/bankapp:v6
+        image: ojpascale/bankapp:v1
         ports:
         - containerPort: 8080
         env:
